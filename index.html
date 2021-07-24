@@ -1,276 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animal  Market</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Market</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
+
 <body>
   <!-- header starts -->
-    <header>        
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container">
-                      <a class="navbar-brand" href="#">
-                        <img src="images/logo.png" alt="" width="60" height="60">
-                      </a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>                  
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#cow">Cow</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#buffelo">Buffalo</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#goat">Goat</a>
-                          </li>                      
-                        </ul>                    
-                      </div>
-                    </div>
-                  </nav>
-                  <!-- banner-section -->
-                  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <div class="row d-flex bg-info bg-gradient" style="height:400px;">
-                          <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                            <div>
-                              <h1>This 20-Inch-Tall Cow</h1>
-                            <p>Meet Rani, a pint-size bovine in Bangladesh, <br> who has drawn thousands of adoring fans to her farm</p>
-                            <button class="btn btn-primary">Buy Now</button>
-                            </div>
-                          </div>
-                          <div class="col-lg-6">
-                            <img src="images/slider/slider-1.jpg" class="d-block" style="margin:65px 20px 0px 0px;width:90%;" alt="...">
-                          </div>
-                        </div>                        
-                      </div>
-                      <div class="carousel-item">
-                        <div class="row d-flex bg-info bg-gradient" style="height:400px;">
-                          <div class="col-lg-7 d-flex align-items-center justify-content-center">
-                            <div>
-                              <h1>This 20-Inch-Tall Cow</h1>
-                            <p>Meet Rani, a pint-size bovine in Bangladesh, <br> who has drawn thousands of adoring fans to her farm</p>
-                            <button class="btn btn-primary">Buy Now</button>
-                            </div>
-                          </div>
-                          <div class="col-lg-5">
-                            <img src="images/slider/slider-2.jpg" class="d-block" style="margin:65px 20px 0px 0px;width:90%;height:70%;" alt="...">
-                          </div>
-                        </div>                        
-                      </div>
-                      <div class="carousel-item h=200px">
-                        <div class="row d-flex bg-info bg-gradient" style="height:400px;">
-                          <div class="col-lg-7 d-flex align-items-center justify-content-center">
-                            <div>
-                              <h1>This 20-Inch-Tall Cow</h1>
-                            <p>Meet Rani, a pint-size bovine in Bangladesh, <br> who has drawn thousands of adoring fans to her farm</p>
-                            <button class="btn btn-primary">Buy Now</button>
-                            </div>
-                          </div>
-                          <div class="col-lg-5">
-                            <img src="images/slider/slider-3.jpg" class="d-block" style="margin:65px 20px 0px 0px;width:90%;" alt="...">
-                          </div>
-                        </div>                        
-                      </div>
-                      <div class="carousel-item">
-                        <div class="row d-flex bg-info bg-gradient" style="height:400px;">
-                          <div class="col-lg-7 d-flex align-items-center justify-content-center">
-                            <div>
-                              <h1>This 20-Inch-Tall Cow</h1>
-                            <p>Meet Rani, a pint-size bovine in Bangladesh, <br> who has drawn thousands of adoring fans to her farm</p>
-                            <button class="btn btn-primary">Buy Now</button>
-                            </div>
-                          </div>
-                          <div class="col-lg-5">
-                            <img src="images/slider/slider-4.jpg" class="d-block" style="margin:65px 20px 0px 0px;width:90%;" alt="...">
-                          </div>
-                        </div>                        
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-            </div>        
-    </header>
-    <!-- body part -->
-    <main>
-      <!-- categories start -->
-      <section class="container my-5">        
-          <div class="row g-4 d-flex">
-            <div class="col-lg-4 col-md-6">
-              <div class="p-5 border bg-primary d-flex justify-content-between border-0">
-                <h1>Cow</h1>
-                <img src="images/categories/goru.jpg" class="w-50" alt="...">
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="" width="60" height="60">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cow">Cow</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#buffelo">Buffalo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#goat">Goat</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner-section -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row d-flex bg-info bg-gradient" style="height:400px;">
+              <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                <div>
+                  <h1>This 20-Inch-Tall Cow</h1>
+                  <p>Meet Rani, a pint-size bovine in Bangladesh, <br> who has drawn thousands of adoring fans to her
+                    farm</p>
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
               </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="p-5 border bg-warning d-flex justify-content-between border-0">
-                <h1>Buffe</h1> 
-                
-                <img src="images/categories/mohish.jpg" class="w-50" alt="...">
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="p-5 border bg-info d-flex justify-content-between border-0">
-                <h1>Goat</h1>
-                <img src="images/categories/chagol.jpg" class="w-50" alt="...">
-              </div>
-            </div>            
-          </div>        
-      </section>
-      <!-- cow-section -->
-      <section class="container" style="margin-bottom: 50px;" id="cow">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-          <div class="col">
-            <div class="card h-100 border-0 shadow">
-              <img src="images/goru/goru-1.jpg" style="width:100%;height:270px;" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-              <div class="m-3">
-                <button class="btn btn-primary">Buy Now</button>
+              <div class="col-lg-6">
+                <img src="images/slider/slider-1.jpg" class="d-block" style="margin:65px 20px 0px 0px;width:90%;"
+                  alt="...">
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card h-100 border-0 shadow">
-              <img src="images/goru/goru-2.jpg" style="width:100%;height:270px;" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <div class="carousel-item">
+            <div class="row d-flex bg-info bg-gradient" style="height:400px;">
+              <div class="col-lg-7 d-flex align-items-center justify-content-center">
+                <div>
+                  <h1>This 20-Inch-Tall Cow</h1>
+                  <p>Meet Rani, a pint-size bovine in Bangladesh, <br> who has drawn thousands of adoring fans to her
+                    farm</p>
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
               </div>
-              <div class="m-3">
-                <button class="btn btn-primary">Buy Now</button>
+              <div class="col-lg-5">
+                <img src="images/slider/slider-2.jpg" class="d-block"
+                  style="margin:65px 20px 0px 0px;width:90%;height:70%;" alt="...">
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card h-100 border-0 shadow">
-              <img src="images/goru/goru-3.jpg" style="width:100%;height:270px;" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <div class="carousel-item h=200px">
+            <div class="row d-flex bg-info bg-gradient" style="height:400px;">
+              <div class="col-lg-7 d-flex align-items-center justify-content-center">
+                <div>
+                  <h1>This 20-Inch-Tall Cow</h1>
+                  <p>Meet Rani, a pint-size bovine in Bangladesh, <br> who has drawn thousands of adoring fans to her
+                    farm</p>
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
               </div>
-              <div class="m-3">
-                <button class="btn btn-primary">Buy Now</button>
+              <div class="col-lg-5">
+                <img src="images/slider/slider-3.jpg" class="d-block" style="margin:65px 20px 0px 0px;width:90%;"
+                  alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex bg-info bg-gradient" style="height:400px;">
+              <div class="col-lg-7 d-flex align-items-center justify-content-center">
+                <div>
+                  <h1>This 20-Inch-Tall Cow</h1>
+                  <p>Meet Rani, a pint-size bovine in Bangladesh, <br> who has drawn thousands of adoring fans to her
+                    farm</p>
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <img src="images/slider/slider-4.jpg" class="d-block" style="margin:65px 20px 0px 0px;width:90%;"
+                  alt="...">
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- buffelo-section -->
-      <section class="container" style="margin-bottom: 50px;" id="buffelo">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-          <div class="col">
-            <div class="card h-100 border-0 shadow">
-              <img src="images/mohish/mohish-1.jpg" style="width:100%;height:287px;" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-              <div class="m-3">
-                <button class="btn btn-primary">Buy Now</button>
-              </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <!-- body part -->
+  <main>
+    <!-- categories start -->
+    <section class="container my-5">
+      <div class="row g-4 d-flex">
+        <div class="col-lg-4 col-md-6">
+          <div class="p-5 border bg-primary d-flex justify-content-between border-0">
+            <h1>Cow</h1>
+            <img src="images/categories/goru.jpg" class="w-50" alt="...">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="p-5 border bg-warning d-flex justify-content-between border-0">
+            <h1>Buffe</h1>
+
+            <img src="images/categories/mohish.jpg" class="w-50" alt="...">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="p-5 border bg-info d-flex justify-content-between border-0">
+            <h1>Goat</h1>
+            <img src="images/categories/chagol.jpg" class="w-50" alt="...">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cow-section -->
+    <section class="container" style="margin-bottom: 50px;" id="cow">
+      <h1>Cow</h1>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100 border-0 shadow">
+            <img src="images/goru/goru-1.jpg" style="width:100%;height:270px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+            <div class="m-3">
+              <button class="btn bg-info">Buy Now</button>
             </div>
           </div>
-          <div class="col">
-            <div class="card h-100 border-0 shadow">
-              <img src="images/mohish/mohish-2.jpg" style="width:100%;height:270px;" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              </div>
-              <div class="m-3">
-                <button class="btn btn-primary">Buy Now</button>
-              </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 shadow">
+            <img src="images/goru/goru-2.jpg" style="width:100%;height:270px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="m-3">
+              <button class="btn bg-info">Buy Now</button>
             </div>
           </div>
-          <div class="col">
-            <div class="card h-100 border-0 shadow">
-              <img src="images/mohish/mohish-3.jpg" style="width:100%;height:270px;" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 shadow">
+            <img src="images/goru/goru-3.jpg" style="width:100%;height:270px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="m-3">
+              <button class="btn bg-info">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- buffelo-section -->
+    <section class="container" style="margin-bottom: 50px;" id="buffelo">
+      <h1>Buffelo</h1>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100 border-0 shadow">
+            <img src="images/mohish/mohish-1.jpg" style="width:100%;height:287px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+            <div class="m-3">
+              <button class="btn bg-info">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 shadow">
+            <img src="images/mohish/mohish-2.jpg" style="width:100%;height:270px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="m-3">
+              <button class="btn bg-info">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 shadow">
+            <img src="images/mohish/mohish-3.jpg" style="width:100%;height:270px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="m-3">
+              <button class="btn bg-info">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- goat-section -->
+    <section class="container" style="margin-bottom: 50px;" id="goat">
+      <h1>Goats</h1>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100 border-0 shadow">
+            <img src="images/chagol/chagol-1.jpg" style="width:100%;height:270px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+            <div class="m-3">
+              <button class="btn bg-info">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 shadow">
+            <img src="images/chagol/chagol-2.jpg" style="width:100%;height:270px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="m-3">
+              <button class="btn bg-info">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 shadow">
+            <img src="images/chagol/chagol-3.jpg" style="width:100%;height:270px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="m-3">
+              <button class="btn bg-info">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- subscribe -->
+    <section class="container bg-info d-flex" style="height:300px;margin-bottom: 60px;">
+      <div>
+        <h1>LET'S STAY IN TOUCH</h1>
+        <p>Get updates on sales, specials and more</p>
+        <input type="text"><br>
+        <button>Submit</button>
+      </div>
+    </section>
+    <!-- partner section -->
+    <section class="container bg-info text-center" style="margin-bottom: 70px;padding-top:20px;">
+      <h1>OUR PARTNER</h1>
+      <div class="d-flex align-items-center">
+        <div><img src="images/partner/logo-1.png" class="w-50" alt=""></div>
+        <div><img src="images/partner/logo-2.png" class="w-100" alt=""></div>
+        <div><img src="images/partner/logo-3.png" class="w-50" alt=""></div>
+      </div>
+    </section>
+    <!-- about us section -->
+    <section class="container d-flex bg-info align-items-center justify-content-center" style="height:150px;margin-bottom: 60px;">
+      <div>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary me-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          About Us
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+          aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">About Us
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="m-3">
-                <button class="btn btn-primary">Buy Now</button>
+              <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis aut voluptatibus temporibus doloribus rem iste, eaque totam reprehenderit maiores ad ab adipisci harum cum similique odio nesciunt nisi doloremque consequatur nostrum magni hic labore! Accusantium voluptas doloremque tenetur deserunt molestiae! Accusantium quam deleniti voluptatibus id eligendi beatae fugiat officia! Placeat.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Understood</button>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- goat-section -->
-      <section class="container" style="margin-bottom: 50px;" id="goat">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-          <div class="col">
-            <div class="card h-100 border-0 shadow">
-              <img src="images/chagol/chagol-1.jpg" style="width:100%;height:270px;" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <!-- button 2 -->
+      <div>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          comments
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+          aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">What Customers says
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="m-3">
-                <button class="btn btn-primary">Buy Now</button>
+              <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis aut voluptatibus temporibus doloribus rem iste, eaque totam reprehenderit maiores ad ab
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 border-0 shadow">
-              <img src="images/chagol/chagol-2.jpg" style="width:100%;height:270px;" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              </div>
-              <div class="m-3">
-                <button class="btn btn-primary">Buy Now</button>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 border-0 shadow">
-              <img src="images/chagol/chagol-3.jpg" style="width:100%;height:270px;" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              </div>
-              <div class="m-3">
-                <button class="btn btn-primary">Buy Now</button>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- subscribe -->
-      <section class="container bg-info d-flex justify-content-center align-items-center" style="height:300px;">
-        <div>
-          <h1>LET'S STAY IN TOUCH</h1>
-          <p>Get updates on sales, specials and more</p>
-          <input type="text"><br>
-          <button>Submit</button>
+      </div>
+    </section>
+    <!-- regitration section -->
+    <section class="container bg-info">
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+          <div class="valid-feedback">
+            Looks good!
           </div>
-      </section>
-    </main>
-    <footer class="container mt-5 text-center">
-      <p>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
-    </footer>
-    <!-- bootstrap-script -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
+              required>
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">State</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+    </section>
+    <!-- icon section -->
+    <section class="container bg-info justify-content-center align-item-center"
+      style="margin-top: 50px;padding:20px;text-align: center;">
+      <h1>Contacts</h1>
+      <p>contact@example.com
+        + 1 526 220 0459</p>
+      <p>
+        <i class="fab fa-facebook-f"
+          style="padding:4px 6px;margin:9px;display:inline-block;background-color:#A00689"></i>
+        <i class="fab fa-twitter" style="padding:4px 6px;margin:9px;display:inline-block;background-color:#A00689"></i>
+        <i class="fab fa-instagram"
+          style="padding:4px 6px;margin:9px;display:inline-block;background-color:#A00689"></i>
+        <i class="fab fa-behance" style="padding:4px 6px;margin:9px;display:inline-block;background-color:#A00689"></i>
+      </p>
+    </section>
+  </main>
+  <footer class="container mt-5 text-center">
+    <p>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
+  </footer>
+  <!-- bootstrap-script -->
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
